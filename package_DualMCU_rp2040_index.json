@@ -12,7 +12,7 @@
         {
           "category": "Unit Electronics",
           "name": "Raspberry Pi Pico/RP2040",
-          "url": "https://github.com/earlephilhower/arduino-pico/releases/download/2.6.4/rp2040-2.6.4.zip",
+          "url": "https://github.com/Rabadan-uelectronics/DualMCU-RP2040/tree/main/releases/download/1.0.0/DualMCU-rp2040-1.0.0.zip",
           "version": "1.0.0",
           "architecture": "rp2040",
           "archiveFileName": "DualMCU-rp2040-1.0.0.zip",
