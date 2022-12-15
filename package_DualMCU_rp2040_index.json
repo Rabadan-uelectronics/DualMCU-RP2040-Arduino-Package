@@ -1,7 +1,7 @@
 {
   "packages": [
     {
-      "name": "rp2040",
+      "name": "DUALMCU",
       "maintainer": "Unit Electronics",
       "websiteURL": "https://github.com/UNIT-Electronics",
       "email": "r&d-innovation@uelectronics.com",
