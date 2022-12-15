@@ -11,7 +11,7 @@
       "platforms": [
         {
           "category": "Unit Electronics",
-          "name": "Raspberry Pi Pico/RP2040",
+          "name": "DUALMCU RP2040",
           "url": "https://github.com/Rabadan-uelectronics/DualMCU-RP2040/releases/download/v1.0.1/DualMCU-rp2040-1.0.0.zip",
           "version": "1.0.0",
           "architecture": "rp2040",
