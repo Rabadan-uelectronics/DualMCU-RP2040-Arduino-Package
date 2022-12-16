@@ -26,7 +26,7 @@ Open up the Arduino IDE and go to File->Preferences.
 
 In the dialog that pops up, enter the following URL in the "Additional Boards Manager URLs" field:
 
-https://github.com/Rabadan-uelectronics/DualMCU-RP2040/releases/download/v1.0.0/package_DualMCU_rp2040_index.json
+https://github.com/Rabadan-uelectronics/DualMCU-RP2040-Arduino-Package/releases/download/v1.0.0/package_DualMCU_rp2040_index.json
 
 ![image](https://github.com/Rabadan-uelectronics/DualMCU-RP2040/blob/main/releases/download/0.0.0/Preferences-AditionalBoardsManagerURL.png)
 
