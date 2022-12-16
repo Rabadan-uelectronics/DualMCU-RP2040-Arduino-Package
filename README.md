@@ -1,4 +1,4 @@
-# DualMCU-RP2040
+# DualMCU-RP2040 Arduino Package
 Arduino Package RP2040 Index - JSON
 
 Raspberry Pi Pico Arduino core, for Dual MCU RP2040 adapted and based on the great work of earlephilhower Earle F. Philhower, III, (https://github.com/earlephilhower/arduino-pico) 
