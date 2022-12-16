@@ -39,10 +39,8 @@ Type "DualMCU" in the search box and select "Add":
 ![image](https://github.com/Rabadan-uelectronics/DualMCU-RP2040/blob/main/releases/download/0.0.0/BoardsManager.png)
 
 # Uploading Sketches
-To upload your first sketch, you will need to hold the RESETBOOTSEL button down while plugging in the DualMCU to your computer.
-Then hit the upload button and the sketch should be transferred and start to run.
 
-To upload your first sketch, you will need to plug the USB-C cable into the DualMCU, move the mechanical USB selector to the “A” position (see section: 3.11 Mechanical selector for the USB Communication) and press and hold the RP2040 reset button (PB1), you can find it onboard with the label  “RST”
+To upload your first sketch, you will need to plug the USB-C cable into the DualMCU, move the mechanical USB selector to the “A” position (see section: 3.11 Mechanical selector for the USB Communication of https://github.com/UNIT-Electronics/DualMCU/blob/main/DualMCU(Product%20Reference%20Manual).pdf) and press and hold the RP2040 reset button (PB1), you can find it onboard with the label  “RST”
 
 ![image](https://github.com/UNIT-Electronics/DualMCU/blob/main/Docs/RP2040-Reset_BUTTON.jpg)
 
@@ -50,7 +48,7 @@ Without release the RESET, with the other hand, press and hold the RP2040 boot b
 
 ![image](https://github.com/UNIT-Electronics/DualMCU/blob/main/Docs/RP2040-Enter_Bootloader_mode.jpg)
 
-Then hit the Reset and BOOT buttons and the sketch should be transferred and start to run.
+Then hit the RST and BOOT buttons and the sketch should be transferred and start to run.
 
 ![image](https://github.com/UNIT-Electronics/DualMCU/blob/main/Docs/RP2040-Boot_button.jpg)
 
