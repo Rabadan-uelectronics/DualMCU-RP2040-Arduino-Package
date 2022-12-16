@@ -1,8 +1,7 @@
 # DualMCU-RP2040
 Arduino Package RP2040 Index - JSON
 
-Raspberry Pi Pico Arduino core, for DualMCU RP2040 based on the great work of https://github.com/earlephilhower/arduino-pico by earlephilhower
-Earle F. Philhower, III
+Raspberry Pi Pico Arduino core, for Dual MCU RP2040 adapted and based on the great work of earlephilhower Earle F. Philhower, III, (https://github.com/earlephilhower/arduino-pico) 
 
 This is a port of the RP2040 (Raspberry Pi Pico processor) to the Arduino ecosystem. It uses the bare Raspberry Pi Pico SDK and a custom GCC 10.3/Newlib 4.0 toolchain.
 
@@ -40,25 +39,28 @@ Type "DualMCU" in the search box and select "Add":
 ![image](https://github.com/Rabadan-uelectronics/DualMCU-RP2040/blob/main/releases/download/0.0.0/BoardsManager.png)
 
 # Uploading Sketches
-To upload your first sketch, you will need to hold the BOOTSEL button down while plugging in the Pico to your computer.
+To upload your first sketch, you will need to hold the RESETBOOTSEL button down while plugging in the DualMCU to your computer.
 Then hit the upload button and the sketch should be transferred and start to run.
+
+To upload your first sketch, you will need to plug the USB-C cable into the DualMCU, move the mechanical USB selector to the “A” position (see section: 3.11 Mechanical selector for the USB Communication) and press and hold the RP2040 reset button (PB1), you can find it onboard with the label  “RST”
+
+![image](https://github.com/UNIT-Electronics/DualMCU/blob/main/Docs/RP2040-Reset_BUTTON.jpg)
+
+Without release the RESET, with the other hand, press and hold the RP2040 boot button (PB2) labeled “BOOT” 
+
+![image](https://github.com/UNIT-Electronics/DualMCU/blob/main/Docs/RP2040-Enter_Bootloader_mode.jpg)
+
+Then hit the Reset and BOOT buttons and the sketch should be transferred and start to run.
+
+![image](https://github.com/UNIT-Electronics/DualMCU/blob/main/Docs/RP2040-Boot_button.jpg)
+
 
 After the first upload, this should not be necessary as the `arduino-pico` core has auto-reset support.
 Select the appropriate serial port shown in the Arduino Tools->Port->Serial Port menu once (this setting will stick and does not need to be
 touched for multiple uploads).   This selection allows the auto-reset tool to identify the proper device to reset.
 Them hit the upload button and your sketch should upload and run.
 
-In some cases the Pico will encounter a hard hang and its USB port will not respond to the auto-reset request.  Should this happen, just
-follow the initial procedure of holding the BOOTSEL button down while plugging in the Pico to enter the ROM bootloader.
 
-# Tutorials from Across the Web
-Here are some links to coverage and additional tutorials for using `arduino-pico`
-* The File:: class is taken from the ESP8266.  See https://arduino-esp8266.readthedocs.io/en/latest/filesystem.html
-* Arduino Support for the Pi Pico available! And how fast is the Pico? - https://youtu.be/-XHh17cuH5E
-* Pre-release Adafruit QT Py RP2040 - https://www.youtube.com/watch?v=sfC1msqXX0I
-* Adafruit Feather RP2040 running LCD + TMP117 - https://www.youtube.com/watch?v=fKDeqZiIwHg
-* Demonstration of Servos and I2C in Korean - https://cafe.naver.com/arduinoshield/1201
-* Home Assistant Pico W integration starter project using Arduino - https://github.com/daniloc/PicoW_HomeAssistant_Starter
 
 # Contributing
 If you want to contribute or have bugfixes, drop us a note at <r&d-innovation@uelectronics.com> or open an issue/PR here.
