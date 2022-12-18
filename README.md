@@ -13,12 +13,6 @@ See https://github.com/UNIT-Electronics/DualMCU along with the examples for more
 * Generic (configurable flash, I/O pins)
 
 # Installing via Arduino Boards Manager
-**Windows Users**: Please do not use the Windows Store version of the actual Arduino application
-because it has issues detecting attached Pico boards.  Use the "Windows ZIP" or plain "Windows"
-executable (EXE)  download direct from https://arduino.cc. and allow it to install any device
-drivers it suggests.  Otherwise the Pico board may not be detected.  Also, if trying out the
-2.0 beta Arduino please install the release 1.8 version beforehand to ensure needed device drivers
-are present.  (See #20 for more details.)
 
 Open up the Arduino IDE and go to File->Preferences.
 
@@ -56,6 +50,12 @@ Select the appropriate serial port shown in the Arduino Tools->Port->Serial Port
 touched for multiple uploads).   This selection allows the auto-reset tool to identify the proper device to reset.
 Them hit the upload button and your sketch should upload and run.
 
+**Windows Users**: Please do not use the Windows Store version of the actual Arduino application
+because it has issues detecting attached Pico boards.  Use the "Windows ZIP" or plain "Windows"
+executable (EXE)  download direct from https://arduino.cc. and allow it to install any device
+drivers it suggests.  Otherwise the Pico board may not be detected.  Also, if trying out the
+2.0 beta Arduino please install the release 1.8 version beforehand to ensure needed device drivers
+are present.  (See #20 for more details.)
 
 
 # Contributing
