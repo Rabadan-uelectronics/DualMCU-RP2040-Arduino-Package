@@ -77,6 +77,6 @@ If you want to contribute or have bugfixes open an issue/PR here.
 * [LEAmDNS](https://github.com/LaborEtArs/ESP8266mDNS) is copyright multiple authors and distributed under the MIT license.
 * [http-parser](https://github.com/nodejs/http-parser) is copyright Joyent, Inc. and other Node contributors.
 * WebServer code modified from the [ESP32 WebServer](https://github.com/espressif/arduino-esp32/tree/master/libraries/WebServer) and is copyright (c) 2015 Ivan Grokhotkov and others
-* The [Raspberry Pi Pico Arduino Core](https://github.com/earlephilhower/arduino-pico) of earlephilhower Earle F. Philhower, III.
+* The [Raspberry Pi Pico Arduino Core](https://github.com/earlephilhower/arduino-pico) of Earle F. Philhower, III (earlephilhower).
 
 
