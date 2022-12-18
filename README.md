@@ -1,5 +1,5 @@
 # DualMCU-RP2040 Arduino Package
-Arduino Package RP2040 Index - JSON
+RP2040 Arduino Package Index JSON
 
 DualMCU Arduino core is a ported version of the [Raspberry Pi Pico Arduino Core](https://github.com/earlephilhower/arduino-pico) based on the great work of earlephilhower Earle F. Philhower, III. This port of the RP2040 uses the Raspberry Pi Pico SDK and a custom GCC 10.3/Newlib 4.0 toolchain, the same as earlephilhower [version 2.6.4](https://github.com/earlephilhower/arduino-pico/releases/tag/2.6.4).
 
