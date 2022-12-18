@@ -1,9 +1,7 @@
 # DualMCU-RP2040 Arduino Package
 Arduino Package RP2040 Index - JSON
 
-Raspberry Pi Pico Arduino core, for Dual MCU RP2040 adapted and based on the great work of earlephilhower Earle F. Philhower, III, (https://github.com/earlephilhower/arduino-pico) 
-
-This is a port of the RP2040 (Raspberry Pi Pico processor) to the Arduino ecosystem. It uses the bare Raspberry Pi Pico SDK and a custom GCC 10.3/Newlib 4.0 toolchain.
+DualMCU Arduino core is a ported version of the Raspberry Pi Pico Arduino Core based on the great work of earlephilhower Earle F. Philhower, III, (Reference: https://github.com/earlephilhower/arduino-pico). This port of the RP2040 uses the Raspberry Pi Pico SDK and a custom GCC 10.3/Newlib 4.0 toolchain as the same as earlephilhower version 2.6.4 (https://github.com/earlephilhower/arduino-pico/releases/ tag/2.6.4).
 
 # Documentation
 See https://github.com/UNIT-Electronics/DualMCU along with the examples for more detailed usage information.
