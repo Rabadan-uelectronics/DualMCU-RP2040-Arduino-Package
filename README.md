@@ -1,7 +1,7 @@
 # DualMCU-RP2040 Arduino Package
 Arduino Package RP2040 Index - JSON
 
-DualMCU Arduino core is a ported version of the Raspberry Pi Pico Arduino Core based on the great work of earlephilhower Earle F. Philhower, III, (Reference: https://github.com/earlephilhower/arduino-pico). This port of the RP2040 uses the Raspberry Pi Pico SDK and a custom GCC 10.3/Newlib 4.0 toolchain as the same as earlephilhower version 2.6.4 (https://github.com/earlephilhower/arduino-pico/releases/ tag/2.6.4).
+DualMCU Arduino core is a ported version of the [Raspberry Pi Pico Arduino Core](https://github.com/earlephilhower/arduino-pico) based on the great work of earlephilhower Earle F. Philhower, III, (Reference: https://github.com/earlephilhower/arduino-pico). This port of the RP2040 uses the Raspberry Pi Pico SDK and a custom GCC 10.3/Newlib 4.0 toolchain as the same as earlephilhower [version 2.6.4] (https://github.com/earlephilhower/arduino-pico/releases/ tag/2.6.4).
 
 # Documentation
 See https://github.com/UNIT-Electronics/DualMCU along with the examples for more detailed usage information.
@@ -59,7 +59,7 @@ Them hit the upload button and your sketch should upload and run.
 
 
 # Contributing
-If you want to contribute or have bugfixes, drop us a note at <r&d-innovation@uelectronics.com> or open an issue/PR here.
+If you want to contribute or have bugfixes open an issue/PR here.
 
 # Licensing and Credits
 * The [Arduino IDE and ArduinoCore-API](https://arduino.cc) are developed and maintained by the Arduino team. The IDE is licensed under GPL.
@@ -77,5 +77,6 @@ If you want to contribute or have bugfixes, drop us a note at <r&d-innovation@ue
 * [LEAmDNS](https://github.com/LaborEtArs/ESP8266mDNS) is copyright multiple authors and distributed under the MIT license.
 * [http-parser](https://github.com/nodejs/http-parser) is copyright Joyent, Inc. and other Node contributors.
 * WebServer code modified from the [ESP32 WebServer](https://github.com/espressif/arduino-esp32/tree/master/libraries/WebServer) and is copyright (c) 2015 Ivan Grokhotkov and others
+* [Raspberry Pi Pico Arduino Core](https://github.com/earlephilhower/arduino-pico) of earlephilhower Earle F. Philhower, III.
 
 
