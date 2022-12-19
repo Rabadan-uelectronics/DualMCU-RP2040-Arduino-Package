@@ -32,7 +32,7 @@ Type "DualMCU" in the search box and select "Add":
 
 # Uploading Sketches
 
-To upload your first sketch, you will need to plug the USB-C cable into the DualMCU, move the mechanical USB selector to the “A” position (see section: 3.11 Mechanical selector for the USB Communication of https://github.com/UNIT-Electronics/DualMCU/blob/main/DualMCU(Product%20Reference%20Manual).pdf) and press and hold the RP2040 reset button (PB1), you can find it onboard with the label  “RST”
+To upload your first sketch, you will need to plug the USB-C cable into the DualMCU, move the mechanical USB selector to the “A” position (see section: 3.11 Mechanical selector for the USB Communication of the [Product Reference Manual](https://github.com/UNIT-Electronics/DualMCU/blob/main/DualMCU(Product%20Reference%20Manual).pdf) and press and hold the RP2040 reset button (PB1), you can find it onboard with the label  “RST”
 
 ![image](https://github.com/UNIT-Electronics/DualMCU/blob/main/Docs/RP2040-Reset_BUTTON.jpg)
 
