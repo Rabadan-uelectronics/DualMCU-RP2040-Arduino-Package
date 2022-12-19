@@ -1,9 +1,7 @@
 # DualMCU-RP2040 Arduino Package
-Arduino Package RP2040 Index - JSON
+RP2040 Arduino Package Index JSON
 
-Raspberry Pi Pico Arduino core, for Dual MCU RP2040 adapted and based on the great work of earlephilhower Earle F. Philhower, III, (https://github.com/earlephilhower/arduino-pico) 
-
-This is a port of the RP2040 (Raspberry Pi Pico processor) to the Arduino ecosystem. It uses the bare Raspberry Pi Pico SDK and a custom GCC 10.3/Newlib 4.0 toolchain.
+DualMCU Arduino core is a ported version of the [Raspberry Pi Pico Arduino Core](https://github.com/earlephilhower/arduino-pico) based on the great work of earlephilhower Earle F. Philhower, III. This port of the RP2040 uses the Raspberry Pi Pico SDK and a custom GCC 10.3/Newlib 4.0 toolchain, the same as earlephilhower [version 2.6.4](https://github.com/earlephilhower/arduino-pico/releases/tag/2.6.4).
 
 # Documentation
 See https://github.com/UNIT-Electronics/DualMCU along with the examples for more detailed usage information.
@@ -15,12 +13,6 @@ See https://github.com/UNIT-Electronics/DualMCU along with the examples for more
 * Generic (configurable flash, I/O pins)
 
 # Installing via Arduino Boards Manager
-**Windows Users**: Please do not use the Windows Store version of the actual Arduino application
-because it has issues detecting attached Pico boards.  Use the "Windows ZIP" or plain "Windows"
-executable (EXE)  download direct from https://arduino.cc. and allow it to install any device
-drivers it suggests.  Otherwise the Pico board may not be detected.  Also, if trying out the
-2.0 beta Arduino please install the release 1.8 version beforehand to ensure needed device drivers
-are present.  (See #20 for more details.)
 
 Open up the Arduino IDE and go to File->Preferences.
 
@@ -40,7 +32,7 @@ Type "DualMCU" in the search box and select "Add":
 
 # Uploading Sketches
 
-To upload your first sketch, you will need to plug the USB-C cable into the DualMCU, move the mechanical USB selector to the “A” position (see section: 3.11 Mechanical selector for the USB Communication of https://github.com/UNIT-Electronics/DualMCU/blob/main/DualMCU(Product%20Reference%20Manual).pdf) and press and hold the RP2040 reset button (PB1), you can find it onboard with the label  “RST”
+To upload your first sketch, you will need to plug the USB-C cable into the DualMCU, move the mechanical USB selector to the “A” position (see section: 3.11 Mechanical selector for the USB Communication of the [Product Reference Manual](https://github.com/UNIT-Electronics/DualMCU/blob/main/DualMCU(Product%20Reference%20Manual).pdf) and press and hold the RP2040 reset button (PB1), you can find it onboard with the label  “RST”
 
 ![image](https://github.com/UNIT-Electronics/DualMCU/blob/main/Docs/RP2040-Reset_BUTTON.jpg)
 
@@ -52,16 +44,8 @@ Then hit the RST and BOOT buttons and the sketch should be transferred and start
 
 ![image](https://github.com/UNIT-Electronics/DualMCU/blob/main/Docs/RP2040-Boot_button.jpg)
 
-
-After the first upload, this should not be necessary as the `arduino-pico` core has auto-reset support.
-Select the appropriate serial port shown in the Arduino Tools->Port->Serial Port menu once (this setting will stick and does not need to be
-touched for multiple uploads).   This selection allows the auto-reset tool to identify the proper device to reset.
-Them hit the upload button and your sketch should upload and run.
-
-
-
 # Contributing
-If you want to contribute or have bugfixes, drop us a note at <r&d-innovation@uelectronics.com> or open an issue/PR here.
+If you want to contribute or have bugfixes open an issue/PR here.
 
 # Licensing and Credits
 * The [Arduino IDE and ArduinoCore-API](https://arduino.cc) are developed and maintained by the Arduino team. The IDE is licensed under GPL.
@@ -79,5 +63,6 @@ If you want to contribute or have bugfixes, drop us a note at <r&d-innovation@ue
 * [LEAmDNS](https://github.com/LaborEtArs/ESP8266mDNS) is copyright multiple authors and distributed under the MIT license.
 * [http-parser](https://github.com/nodejs/http-parser) is copyright Joyent, Inc. and other Node contributors.
 * WebServer code modified from the [ESP32 WebServer](https://github.com/espressif/arduino-esp32/tree/master/libraries/WebServer) and is copyright (c) 2015 Ivan Grokhotkov and others
+* The [Raspberry Pi Pico Arduino Core](https://github.com/earlephilhower/arduino-pico) of Earle F. Philhower, III (earlephilhower).
 
 
